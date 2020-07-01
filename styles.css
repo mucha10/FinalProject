@@ -1,0 +1,188 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #ffef61;
+  margin : 0;
+  padding : 0;
+  font-family: 'Roboto', sens-serif;
+}
+a {
+  text-decoration: none;
+  color: #0499ff
+}
+.nav {
+   min-height: 40px;
+   background-color: #000;
+   text-align: center;
+   padding: 10px;
+   font-weight: 600;
+   position: fixed;
+   border-radius: 10px;
+
+ }
+
+ .menu{
+   display: flex;
+   flex-flow: row;
+   color: #fff
+   list-style-type : none;
+   margin: 0 auto;
+   justify-content: space-around;
+
+
+ }
+ .menu li{
+   padding: 10px;
+ }
+ .name{
+   display: block;
+   margin-right: auto;
+   color: white;
+ }
+header{
+  padding-top: 40px;
+  width: 100%;
+  height: 400px;
+  background-image: url(https://placeimg.com/1000/400/tech);
+  background-size: cover;
+  text-align:center;
+
+
+}
+header img{
+  border-radius: 50%;
+  border: 2px solid #000;
+  transition: all .5s;
+}
+
+header img:hover{
+  transform: scale(1.2) rotate(5deg);
+  border-radius: 20px;
+}
+.tag{
+  display: table;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1{
+  padding: 10px;
+  background-color: #fff;
+  display: table;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+.sub-title{
+  background-color: #000;
+  color: yellow;
+
+}
+.content{
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.card{
+  max-width: 500px;
+  margin: 10px;
+  padding: 50px;
+  border-bottom: 3px solid grey;
+  border-radius: 5px;
+
+}
+footer{
+  text-align: center;
+padding: 60px;
+}
+.tag-list{
+  display: flex;
+  flex-flow: row;
+  list-style-type : none;
+  color: #fff;
+}
+.tag-yellow{
+  background-color: #ff9904;
+}
+.tag-blue{
+  background-color: #0399ff;
+}
+.card01{
+  background-color:#fffe9c ;
+  border-radius: 40px;
+  position: relative;
+  top: 20px;
+  font-family: 'Philosopher', sans-serif;
+  width: 400px;
+  height: 400px;
+
+}
+.card02{
+    background-color:#dfff8f ;
+    border-radius: 40px;
+    position: relative;
+    top: 50px;
+    font-family: 'Philosopher', sans-serif;
+
+}
+.content-relative{
+  position: relative;
+}
+.content-relative:hover .overlay {
+  display: flex;
+}
+
+.overlay{
+  border-radius: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content:center;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+.overlay h2{
+  text-align: center;
+  color: yellow;
+
+}
+.content-relative02{
+  position: relative;
+}
+.content-relative:hover .overlay02 {
+  display: flex;
+}
+
+.overlay02{
+  border-radius: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content:center;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+.overlay02 h2{
+  text-align: center;
+  color: #72ff2b;
+
+}
+.imgScreen{
+  width:300px;
+  height:300px;
+}
+.store-details{
+  text-align: center;
+}
